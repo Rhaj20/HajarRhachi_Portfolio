@@ -1,10 +1,8 @@
 export default function Section({ title, children }) {
     return (
-        <section style={{ marginBottom: "3rem" }}>
+        <section>
             <h2>{title}</h2>
-            <div style={{ display: "grid", gap: "1.5rem" }}>
-                {children}
-            </div>
+            <div className="grid">{children}</div>
         </section>
     );
 }

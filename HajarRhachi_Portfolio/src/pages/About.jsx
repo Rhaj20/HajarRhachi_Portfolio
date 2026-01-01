@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div>
+        <main>
             <h1>About Me</h1>
 
             <p>
@@ -18,6 +18,6 @@ export default function About() {
             <p>
                 React · JavaScript · HTML · CSS · Git · Figma
             </p>
-        </div>
+        </main>
     );
 }

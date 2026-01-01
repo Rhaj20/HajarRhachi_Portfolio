@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function CodingProjects() {
     return (
-        <div>
+        <main>
             <h1>Coding Projects</h1>
 
             <Section title="Projects">
@@ -31,6 +31,6 @@ export default function CodingProjects() {
                     tech="Kotlin"
                 />
             </Section>
-        </div>
+        </main>
     );
 }

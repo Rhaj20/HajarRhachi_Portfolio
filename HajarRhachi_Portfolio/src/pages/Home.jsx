@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function Home() {
     return (
-        <div>
+        <main>
             <h1>Hi, I’m Hajar 👋</h1>
             <p>
                 I'm a 2nd year Student in Creative Computing Bachelor and an aspiring junior developer & designer focused on usable interfaces and meaningful projects.
@@ -67,6 +67,6 @@ export default function Home() {
                 </div>
             </Section>
 
-        </div>
+        </main>
     );
 }

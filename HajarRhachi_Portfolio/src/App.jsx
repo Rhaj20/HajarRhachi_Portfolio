@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
@@ -8,6 +9,11 @@ import Navbar from "./components/Navbar";
 
 
 export default function App() {
+    useEffect(() => {
+        if (!window.location.hash) {
+            window.location.hash = "#/";
+        }
+    }, []);
     return (
         <HashRouter>
             <Navbar />

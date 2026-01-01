@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import CodingProjects from "./pages/CodingProjects";
@@ -9,14 +9,14 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
     return (
-        <BrowserRouter>
-            <Navbar basename="/HajarRhachi_Portfolio" />
+        <HashRouter>
+            <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/coding-projects" element={<CodingProjects />} />
                 <Route path="/design-projects" element={<DesignProjects />} />
                 <Route path="/about" element={<About />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }

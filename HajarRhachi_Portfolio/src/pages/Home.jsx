@@ -20,7 +20,7 @@ export default function Home() {
                     title="The Artful Gallery"
                     description="Online art gallery with dynamic content."
                     tech="React, API, CSS"
-                    link="#"
+                    link="https://cc241010-10724.node.ustp.cloud/"
                 />
                 <ProjectCard
                     title="SSC Project"

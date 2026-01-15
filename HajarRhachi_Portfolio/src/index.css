@@ -76,24 +76,85 @@ a:hover {
 }
 
 /* -------- NAVBAR -------- */
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 1.5rem;
+.navbar {
   background-color: var(--bg-card);
   border-bottom: 1px solid var(--border-light);
+  position: sticky;
+  padding: 0.1rem;
+  top: 0;
+  z-index: 1000;
 }
 
-nav a {
-  color: var(--text-main);
-  font-weight: 500;
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100px;
 }
 
-nav a:hover {
-  color: var(--primary);
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
 }
 
+.burger {
+  display: none; /* Hidden on Desktop */
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: var(--text-main);
+  transition: 0.3s ease;
+}
+
+.nav-logo-img {
+  height: 180px;      /* Adjust this height to fit your navbar */
+  width: auto;       /* Keeps the logo from stretching */
+  display: block;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+/* -------- MOBILE NAV (Under 600px) -------- */
+@media (max-width: 600px) {
+  .burger {
+    display: flex; /* Show burger on mobile */
+  }
+
+  .nav-links {
+    display: none; /* Hide links on mobile by default */
+    position: absolute;
+    top: 100%; /* Sits right under the navbar */
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-card);
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--border-light);
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex; /* Show links when burger is clicked */
+  }
+
+  /* Animate Burger to X */
+  .line.open:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
+  .line.open:nth-child(2) { opacity: 0; }
+  .line.open:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
+}
 /* -------- SECTIONS -------- */
 section {
   margin-bottom: 4rem;

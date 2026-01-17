@@ -47,7 +47,9 @@ export default function CodingProjects() {
                     description="A simple, daily tool for mood logging that provides immediate positive reinforcement by giving quotes, and long-term insight by allowing people to check their past entries. Its main goal is to allow people to track their emotional patterns and to maintain mental health awareness"
                     tech="Kotlin"
                     link="https://www.canva.com/design/DAG6XSu5arM/tULUhulp_iECariAK2ZG7A/edit?utm_content=DAG6XSu5arM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                />
+                    filePath="./files/app-debug.apk"
+                    fileName="MindTracker_App.apk"
+                    label="Download Mindtracker app"/>
             </Section>
         </main>
     );

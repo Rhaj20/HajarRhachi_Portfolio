@@ -1,4 +1,6 @@
-export default function ProjectCard({ title, description, tech, link, image }) {
+import DownloadButton from "./DownloadButton.jsx";
+
+export default function ProjectCard({ title, description, tech, link, image, filePath, fileName, label }) {
     return (
         <div className="card">
             {image && (
@@ -14,6 +16,13 @@ export default function ProjectCard({ title, description, tech, link, image }) {
                     <a href={link} target="_blank" rel="noopener noreferrer">
                         View project →
                     </a>
+                )}
+                {filePath && (
+                    <DownloadButton
+                        filePath={filePath}
+                        fileName={fileName}
+                        label={label}
+                    />
                 )}
             </div>
         </div>

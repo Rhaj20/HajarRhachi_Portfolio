@@ -1,3 +1,5 @@
+import DownloadButton from "../components/DownloadButton.jsx";
+
 export default function About() {
     return (
         <main>
@@ -18,6 +20,11 @@ export default function About() {
             <p>
                 React · JavaScript · HTML · CSS · Git · Figma
             </p>
+            <DownloadButton
+                filePath="./files/CV_Hajar_Rhachi.pdf"
+                fileName="Hajar_Rhachi_CV.pdf"
+                label="Download CV"
+            />
         </main>
     );
 }

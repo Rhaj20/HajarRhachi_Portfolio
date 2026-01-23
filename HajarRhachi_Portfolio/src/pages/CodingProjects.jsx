@@ -31,8 +31,12 @@ export default function CodingProjects() {
                 <ProjectCard
                     title="Dear Future"
                     image="./images/Dear_Future.png"
-                    description="an Android application that helps users reflect on their past selves by writing letters to their future self, and storing digital time capsules that can be opened at a later date. Made during the Creative Code Labs 3"
-                    tech="Kotlin" link="https://ccl3-ws2025-72f895.pages.nwt.fhstp.ac.at/"
+                    description="An Android application that helps users reflect on their past selves by writing letters to their future self, and storing digital time capsules that can be opened at a later date. Made during the Creative Code Labs 3"
+                    tech="Kotlin"
+                    link="https://ccl3-ws2025-72f895.pages.nwt.fhstp.ac.at/"
+                    filePath="./files/dear_future.apk"
+                    fileName="DearFuture_App.apk"
+                    label="Download Dear Future app"
                 />
                 <ProjectCard
                     title="Remaking BMO from Adventure time"
@@ -44,10 +48,10 @@ export default function CodingProjects() {
                 <ProjectCard
                     title="MindTracker"
                     image="./images/MindTracker.png"
-                    description="A simple, daily tool for mood logging that provides immediate positive reinforcement by giving quotes, and long-term insight by allowing people to check their past entries. Its main goal is to allow people to track their emotional patterns and to maintain mental health awareness"
+                    description="A simple, daily android app used as a tool for mood logging that provides immediate positive reinforcement by giving quotes, and long-term insight by allowing people to check their past entries. Its main goal is to allow people to track their emotional patterns and to maintain mental health awareness"
                     tech="Kotlin"
                     link="https://www.canva.com/design/DAG6XSu5arM/tULUhulp_iECariAK2ZG7A/edit?utm_content=DAG6XSu5arM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                    filePath="./files/app-debug.apk"
+                    filePath="./files/mind_tracker.apk"
                     fileName="MindTracker_App.apk"
                     label="Download Mindtracker app"/>
             </Section>

@@ -6,7 +6,7 @@ export default function Home() {
         <main>
             <h1>Hi, I’m Hajar 👋</h1>
             <p>
-                I'm a 2nd year Student in Creative Computing Bachelor and an aspiring junior developer & designer focused on usable interfaces and meaningful projects.
+                I'm a 2nd year Student in Creative Computing Bachelor and an aspiring junior developer & designer focused on usable interfaces, accessible designs and meaningful projects.
             </p>
 
             <Section title="Main Projects">

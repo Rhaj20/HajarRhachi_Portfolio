@@ -10,16 +10,26 @@ export default function CodingProjects() {
                 <ProjectCard
                     title="9 Lives One Secret"
                     image="./images/Nine_Lives_One_Secret.png"
-                    description="A stealth puzzle game built with HTML, CSS, and JavaScript, where players help Trésor the cat sneak to a secret room without being caught by her owner. Made in the Creative Code Labs 1"
+                    description="A stealth puzzle game built with HTML, CSS, and JavaScript, where players help Trésor the cat sneak to a secret room without being caught by her owner. Made in the Creative Code Labs 1 by myself"
                     tech="JavaScript, HTML, CSS"
                     link="https://rhaj20.github.io/Nine-Lives-One-Secret-game_CCL1/"
                 />
                 <ProjectCard
                     title="The Artful Gallery"
                     image="./images/The_Artful_Gallery.png"
-                    description="A full-stack art community platform built with React, Node.js, Express, MySQL, and Socket.IO, enabling artwork uploads, discovery, and real-time conversations. Made in Creatuve Code Labs 2"
+                    description="A full-stack art community platform built with React, Node.js, Express, MySQL, and Socket.IO, enabling artwork uploads, discovery, and real-time conversations. Made in Creatuve Code Labs 2 by myself"
                     tech="React, Node.js, Express, MySQL, and Socket.IO"
                     link="https://cc241010-10724.node.ustp.cloud/"
+                />
+                <ProjectCard
+                    title="Dear Future"
+                    image="./images/Dear_Future_1.png"
+                    description="An Android application that helps users reflect on their past selves by writing letters to their future self, and storing digital time capsules that can be opened at a later date. Made during the Creative Code Labs 3 in a pair"
+                    tech="Kotlin"
+                    link="https://ccl3-ws2025-72f895.pages.nwt.fhstp.ac.at/"
+                    filePath="./files/dear_future.apk"
+                    fileName="DearFuture_App.apk"
+                    label="Download Dear Future app"
                 />
                 <ProjectCard
                     title="75 challenge"
@@ -27,16 +37,6 @@ export default function CodingProjects() {
                     description="Server-side project: A dynamic fitness community platform that motivates users through daily challenges, real-time interaction, and community engagement, built with Node.js, Express, and MySQL"
                     tech="Node.js, Express, and MySQL"
                     link="https://cc241010-10971.node.fhstp.cc"
-                />
-                <ProjectCard
-                    title="Dear Future"
-                    image="./images/Dear_Future.png"
-                    description="An Android application that helps users reflect on their past selves by writing letters to their future self, and storing digital time capsules that can be opened at a later date. Made during the Creative Code Labs 3"
-                    tech="Kotlin"
-                    link="https://ccl3-ws2025-72f895.pages.nwt.fhstp.ac.at/"
-                    filePath="./files/dear_future.apk"
-                    fileName="DearFuture_App.apk"
-                    label="Download Dear Future app"
                 />
                 <ProjectCard
                     title="Remaking BMO from Adventure time"
@@ -47,7 +47,7 @@ export default function CodingProjects() {
                 />
                 <ProjectCard
                     title="MindTracker"
-                    image="./images/MindTracker.png"
+                    image="./images/MindTracker_Main.png"
                     description="A simple, daily android app used as a tool for mood logging that provides immediate positive reinforcement by giving quotes, and long-term insight by allowing people to check their past entries. Its main goal is to allow people to track their emotional patterns and to maintain mental health awareness"
                     tech="Kotlin"
                     link="https://www.canva.com/design/DAG6XSu5arM/tULUhulp_iECariAK2ZG7A/edit?utm_content=DAG6XSu5arM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"

@@ -11,20 +11,23 @@ export default function Home() {
 
             <Section title="Main Projects">
                 <ProjectCard
-                    title="9 Lives One Secret"
-                    description="A stealth puzzle game built with HTML, CSS, and JavaScript, where players help Trésor the cat sneak to a secret room without being caught by her owner"
-                    tech="JavaScript, HTML, CSS"
-                    link="https://rhaj20.github.io/Nine-Lives-One-Secret-game_CCL1/"
-                />
-                <ProjectCard
                     title="The Artful Gallery"
-                    description="A full-stack art community platform built with React, Node.js, Express, MySQL, and Socket.IO, enabling artwork uploads, discovery, and real-time conversations"
+                    image="./images/The_Artful_Gallery.png"
+                    description="A full-stack art community platform built with React, Node.js, Express, MySQL, and Socket.IO, enabling artwork uploads, discovery, and real-time conversations. Made in Creatuve Code Labs 2"
                     tech="React, Node.js, Express, MySQL, and Socket.IO"
                     link="https://cc241010-10724.node.ustp.cloud/"
                 />
                 <ProjectCard
-                    title="75 challenge-Server Side Coding Project"
-                    description="A dynamic fitness community platform that motivates users through daily challenges, real-time interaction, and community engagement, built with Node.js, Express, and MySQL"
+                    title="9 Lives One Secret"
+                    image="./images/Nine_Lives_One_Secret.png"
+                    description="A stealth puzzle game built with HTML, CSS, and JavaScript, where players help Trésor the cat sneak to a secret room without being caught by her owner. Made in the Creative Code Labs 1"
+                    tech="JavaScript, HTML, CSS"
+                    link="https://rhaj20.github.io/Nine-Lives-One-Secret-game_CCL1/"
+                />
+                <ProjectCard
+                    title="75 challenge"
+                    image="./images/75_Challenge.png"
+                    description="Server-side project: A dynamic fitness community platform that motivates users through daily challenges, real-time interaction, and community engagement, built with Node.js, Express, and MySQL"
                     tech="Node.js, Express, and MySQL"
                     link="https://cc241010-10971.node.fhstp.cc"
                 />

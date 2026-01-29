@@ -2,7 +2,7 @@ const designProjects = [
     {
         id: "dear_future",
         title: "Dear Future logo design",
-        category: "Branding",
+        category: "Digital drawing",
         image: "./images/Dear_Future_1.png",
         description: "Logo variations for the mobile app Dear Future. Logos made by me.",
         tech: "Canva, Adobe Illustrator",
@@ -60,10 +60,36 @@ const designProjects = [
         ]
     },
     {
+        id: "creations_lys",
+        title: "Social media Créations Lys posts design",
+        category: "Social media design",
+        image: "./images/CréationsLys_1.png",
+        description: "While managing Créations Lys' insta page, I did a few different  instagram posts to showcase their beautiful gift boxes and products.",
+        tech: "Canva",
+        galleryVariant: "visual",
+        gallery: [
+            "./images/CréationsLys_1.png",
+            "./images/CréationsLys_2.png",
+            "./images/CréationsLys_3.png",
+            "./images/CréationsLys_4.png",
+            "./images/CréationsLys_5.png",
+            "./images/CréationsLys_6.png",
+            "./images/CréationsLys_7.png",
+            "./images/CréationsLys_8.png",
+            "./images/CréationsLys_9.png",
+            "./images/CréationsLys_10.png",
+            "./images/CréationsLys_11.png",
+            "./images/CréationsLys_12.png",
+            "./images/CréationsLys_13.png",
+            "./images/CréationsLys_14.png",
+            "./images/CréationsLys_15.png"
+        ]
+    },
+    {
         id: "travel_mate",
         title: "TravelMate mobile language app",
         category: "UI/UX",
-        image: "./images/TravelMate_main.png",
+        image: "./images/TravelMate_Main.png",
         description: "SF Factor is a Canadian boutique consulting firm in sustainable finance, where I helped design and develop their B2B sustainability reporting platform. Based on the branding of the company, I remade the design of the Desktop app and website for the platform.",
         tech: "Figma",
         galleryVariant: "visual",
@@ -72,6 +98,27 @@ const designProjects = [
             "./images/TravelMate_2.png",
             "./images/TravelMate_3.png",
             "./images/TravelMate_4.png"
+        ]
+    },
+    {
+        id: "nine_lives_one_secret",
+        title: "Logo variations website women of power",
+        category: "Branding",
+        image: "./images/Nine_Lives_One_Secret.png",
+        description: "As part of a uni assignment, we had to make a mini pitch bible that I used as inspiration for my Creative Code Lab 1 Web-game.",
+        tech: "Adobe Illustrator, Canva",
+        galleryVariant: "visual",
+        gallery: [
+            "./images/Nine_Lives_One_Secret_1.png",
+            "./images/Nine_Lives_One_Secret_2.png",
+            "./images/Nine_Lives_One_Secret_3.png",
+            "./images/Nine_Lives_One_Secret_4.png",
+            "./images/Nine_Lives_One_Secret_5.png",
+            "./images/Nine_Lives_One_Secret_6.png",
+            "./images/Nine_Lives_One_Secret_7.png",
+            "./images/Nine_Lives_One_Secret_8.png",
+            "./images/Nine_Lives_One_Secret_9.png",
+            "./images/Nine_Lives_One_Secret_10.png"
         ]
     },
     {

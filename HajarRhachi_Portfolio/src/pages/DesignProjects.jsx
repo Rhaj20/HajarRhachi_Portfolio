@@ -4,7 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 import designProjects from "../data/designProjects";
 
 export default function DesignProjects() {
-    const categories = ["All", "UI/UX", "Branding", "3D Modeling"];
+    const categories = ["All", "UI/UX", "Branding", "Digital drawing", "Social media design"];
     const [filter, setFilter] = useState("All");
 
     const filteredProjects =

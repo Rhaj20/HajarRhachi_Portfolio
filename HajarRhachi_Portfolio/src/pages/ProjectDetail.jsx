@@ -19,15 +19,35 @@ export default function ProjectDetail({ allProjects }) {
             </header>
 
             <section className={`gallery gallery-${project.galleryVariant || "default"}`}>
-            {/* This handles your 'many images' request */}
-                {project.gallery?.map((img, index) => (
-                    <img
-                        key={index}
-                        src={img}
-                        alt={`${project.title} process ${index}`}
-                        className="gallery-img"
-                    />
-                ))}
+                {project.gallery?.map((item, index) => {
+                    if (item.type === "image") {
+                        return (
+                            <img
+                                key={index}
+                                src={item.src}
+                                alt={`${project.title} ${index + 1}`}
+                                className="gallery-img"
+                            />
+                        );
+                    }
+
+                    if (item.type === "video") {
+                        return (
+                            <video
+                                key={index}
+                                src={item.src}
+                                className="gallery-video"
+                                controls
+                                playsInline
+                                autoPlay
+                                muted
+                                loop
+                            />
+                        );
+                    }
+
+                    return null;
+                })}
             </section>
         </main>
     );

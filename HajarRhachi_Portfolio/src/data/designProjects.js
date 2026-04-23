@@ -8,10 +8,11 @@ const designProjects = [
         tech: "Canva, Adobe Illustrator",
         galleryVariant: "logo",
         gallery: [
-            "./images/Dear_Future_2.png",
-            "./images/Dear_Future_3.png",
-            "./images/Dear_Future_4.png",
-            "./images/Dear_Future_5.png"
+            { type: "image", src:"./images/Dear_Future_1.png"},
+            { type: "image", src:"./images/Dear_Future_2.png"},
+            { type: "image", src:"./images/Dear_Future_3.png"},
+            { type: "image", src:"./images/Dear_Future_4.png"},
+            { type: "image", src:"./images/Dear_Future_5.png"}
         ]
     },
     {
@@ -23,11 +24,11 @@ const designProjects = [
         tech: "Figma",
         //galleryVariant: "visual",
         gallery: [
-            "./images/Peak_Pursuit_1.png",
-            "./images/Peak_Pursuit_2.png",
-            "./images/Peak_Pursuit_3.png",
-            "./images/Peak_Pursuit_4.png",
-            "./images/Peak_Pursuit_5.png"
+            { type: "image", src:"./images/Peak_Pursuit_1.png"},
+            { type: "image", src:"./images/Peak_Pursuit_2.png"},
+            { type: "image", src:"./images/Peak_Pursuit_3.png"},
+            { type: "image", src:"./images/Peak_Pursuit_4.png"},
+            { type: "image", src:"./images/Peak_Pursuit_5.png"}
         ]
     },
     {
@@ -39,50 +40,51 @@ const designProjects = [
         tech: "Canva",
         galleryVariant: "logo",
         gallery: [
-            "./images/The_artful_gallery_2.png",
-            "./images/The_artful_gallery_3.png",
-            "./images/The_artful_gallery_5.png",
-            "./images/The_artful_gallery_6.png",
+            { type: "image", src:"./images/The_artful_gallery_2.png"},
+            { type: "image", src:"./images/The_artful_gallery_3.png"},
+            { type: "image", src:"./images/The_artful_gallery_5.png"},
+            { type: "image", src:"./images/The_artful_gallery_6.png"},
         ]
     },
     {
         id: "sf_factor",
-        title: "Desktop App and website design",
+        title: "Desktop App and website design SF Factor",
         category: "UI/UX",
         image: "./images/SF_Factor_main.png",
         description: "SF Factor is a Canadian boutique consulting firm in sustainable finance, where I helped design and develop their B2B sustainability reporting platform. Based on the branding of the company, I remade the design of the Desktop app and website for the platform.",
         tech: "Figma",
         gallery: [
-            "./images/SF_Factor_1.png",
-            "./images/SF_Factor_2.png",
-            "./images/SF_Factor_3.png",
-            "./images/SF_Factor_4.png"
+            { type: "image", src:"./images/SF_Factor_1.png"},
+            { type: "image", src:"./images/SF_Factor_2.png"},
+            { type: "image", src:"./images/SF_Factor_3.png"},
+            { type: "image", src:"./images/SF_Factor_4.png"}
         ]
     },
     {
         id: "creations_lys",
         title: "Social media Créations Lys posts design",
         category: "Social media design",
-        image: "./images/CréationsLys_1.png",
+        image: "./images/CreationsLys_1.png",
         description: "While managing Créations Lys' insta page, I did a few different  instagram posts to showcase their beautiful gift boxes and products.",
-        tech: "Canva",
+        tech: "Canva, CapCut, Adobe Illustrator",
         galleryVariant: "visual",
         gallery: [
-            "/images/CréationsLys_1.png",
-            "/images/CréationsLys_2.png",
-            "/images/CréationsLys_3.png",
-            "/images/CréationsLys_4.png",
-            "/images/CréationsLys_5.png",
-            "/images/CréationsLys_6.png",
-            "/images/CréationsLys_7.png",
-            "/images/CréationsLys_8.png",
-            "/images/CréationsLys_9.png",
-            "/images/CréationsLys_10.png",
-            "/images/CréationsLys_11.png",
-            "/images/CréationsLys_12.png",
-            "/images/CréationsLys_13.png",
-            "/images/CréationsLys_14.png",
-            "/images/CréationsLys_15.png"
+            { type: "image", src:"./images/CreationsLys_1.png"},
+            { type: "image", src:"./images/CreationsLys_2.png"},
+            { type: "image", src:"./images/CreationsLys_3.png"},
+            { type: "image", src:"./images/CreationsLys_4.png"},
+            { type: "image", src:"./images/CreationsLys_5.png"},
+            { type: "image", src:"./images/CreationsLys_6.png"},
+            { type: "image", src:"./images/CreationsLys_7.png"},
+            { type: "image", src:"./images/CreationsLys_8.png"},
+            { type: "image", src:"./images/CreationsLys_9.png"},
+            { type: "video", src:"./videos/CreationsLys_vid_1.mp4"},
+            { type: "image", src:"./images/CreationsLys_10.png"},
+            { type: "image", src:"./images/CreationsLys_11.png"},
+            { type: "image", src:"./images/CreationsLys_12.png"},
+            { type: "image", src:"./images/CreationsLys_13.png"},
+            { type: "image", src:"./images/CreationsLys_14.png"},
+            { type: "image", src:"./images/CreationsLys_15.png"}
         ]
     },
     {
@@ -94,31 +96,31 @@ const designProjects = [
         tech: "Figma",
         galleryVariant: "visual",
         gallery: [
-            "./images/TravelMate_1.png",
-            "./images/TravelMate_2.png",
-            "./images/TravelMate_3.png",
-            "./images/TravelMate_4.png"
+            { type: "image", src:"./images/TravelMate_1.png"},
+            { type: "image", src:"./images/TravelMate_2.png"},
+            { type: "image", src:"./images/TravelMate_3.png"},
+            { type: "image", src:"./images/TravelMate_4.png"}
         ]
     },
     {
         id: "nine_lives_one_secret",
-        title: "Logo variations website women of power",
+        title: "Art Nine Lives, One Secret for Mini-Pitch Bible",
         category: "Branding",
         image: "./images/Nine_Lives_One_Secret.png",
         description: "As part of a uni assignment, we had to make a mini pitch bible that I used as inspiration for my Creative Code Lab 1 Web-game.",
         tech: "Adobe Illustrator, Canva",
         galleryVariant: "visual",
         gallery: [
-            "./images/Nine_Lives_One_Secret_1.png",
-            "./images/Nine_Lives_One_Secret_2.png",
-            "./images/Nine_Lives_One_Secret_3.png",
-            "./images/Nine_Lives_One_Secret_4.png",
-            "./images/Nine_Lives_One_Secret_5.png",
-            "./images/Nine_Lives_One_Secret_6.png",
-            "./images/Nine_Lives_One_Secret_7.png",
-            "./images/Nine_Lives_One_Secret_8.png",
-            "./images/Nine_Lives_One_Secret_9.png",
-            "./images/Nine_Lives_One_Secret_10.png"
+            { type: "image", src:"./images/Nine_Lives_One_Secret_1.png"},
+            { type: "image", src:"./images/Nine_Lives_One_Secret_2.png"},
+            { type: "image", src:"./images/Nine_Lives_One_Secret_3.png"},
+            { type: "image", src:"./images/Nine_Lives_One_Secret_4.png"},
+            { type: "image", src:"./images/Nine_Lives_One_Secret_5.png"},
+            { type: "image", src:"./images/Nine_Lives_One_Secret_6.png"},
+            { type: "image", src: "./images/Nine_Lives_One_Secret_7.png"},
+            { type: "image", src:"./images/Nine_Lives_One_Secret_8.png"},
+            { type: "image", src:"./images/Nine_Lives_One_Secret_9.png"},
+            { type: "image", src:"./images/Nine_Lives_One_Secret_10.png"}
         ]
     },
     {
@@ -130,9 +132,9 @@ const designProjects = [
         tech: "Adobe Illustrator, Canva",
         galleryVariant: "logo",
         gallery: [
-            "./images/Women_Of_Power_1.png",
-            "./images/Women_Of_Power_2.png",
-            "./images/Women_Of_Power_3.png"
+            { type: "image", src:"./images/Women_Of_Power_1.png"},
+            { type: "image", src:"./images/Women_Of_Power_2.png"},
+            { type: "image", src:"./images/Women_Of_Power_3.png"}
         ]
     },
     {
@@ -144,8 +146,8 @@ const designProjects = [
         tech: "Figma",
 
         gallery: [
-            "./images/Food_App_1.png",
-            "./images/Food_App_2.png"
+            { type: "image", src:"./images/Food_App_1.png"},
+            { type: "image", src:"./images/Food_App_2.png"}
         ]
     },
     {
@@ -157,8 +159,8 @@ const designProjects = [
         tech: "Canva",
         galleryVariant: "logo",
         gallery: [
-            "./images/Fashion_Court_1.png",
-            "./images/Fashion_Court_2.png"
+            { type: "image", src:"./images/Fashion_Court_1.png"},
+            { type: "image", src:"./images/Fashion_Court_2.png"}
         ]
     },
     {
@@ -170,10 +172,10 @@ const designProjects = [
         tech: "Canva",
         galleryVariant: "logo",
         gallery: [
-            "./images/Dehner_2.png",
-            "./images/Dehner_3.png",
-            "./images/Dehner_4.png",
-            "./images/Dehner_5.png",
+            { type: "image", src:"./images/Dehner_2.png"},
+            { type: "image", src:"./images/Dehner_3.png"},
+            { type: "image", src:"./images/Dehner_4.png"},
+            { type: "image", src:"./images/Dehner_5.png"}
         ]
     }
 ];

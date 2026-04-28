@@ -15,46 +15,45 @@ export default function Home() {
         bannerRef.current.style.setProperty("--y", `${y}px`);
     };
     return (
-        <main>
-            <section
-                className="banner"
-                ref={bannerRef}
-                onMouseMove={handleMouseMove}
-            >
-                <div className="banner-glow"></div>
+        <>
+        <section
+            className="banner"
+            ref={bannerRef}
+            onMouseMove={handleMouseMove}
+        >
+            <div className="banner-glow"></div>
 
-                <div className="banner-content">
-                    <h1 className="banner-title">
-                        Hajar <span>Rhachi</span>'s <span>Portfolio</span>
-                    </h1>
+            <div className="banner-content">
+                <h1 className="banner-title">
+                    Hajar <span>Rhachi</span>'s <span>Portfolio</span>
+                </h1>
 
-                    <p className="banner-description">
-                        Creative Computing student crafting digital experiences
-                        through design, interaction, and technology.
-                    </p>
-                    <p className="banner-type">
-                        <Typewriter
-                            options={{
-                                strings: [
-                                    "Interactive interfaces",
-                                    "Creative coding experiments",
-                                    "Human-centered design"
-                                ],
-                                autoStart: true,
-                                loop: true,
-                                delay: 40
-                            }}
-                        />
-                    </p>
-                    {/*<div className="banner-tags">
+                <p className="banner-description">
+                    Creative Computing student crafting digital experiences
+                    through design, interaction, and technology.
+                </p>
+                <p className="banner-type">
+                    <Typewriter
+                        options={{
+                            strings: [
+                                "Interactive interfaces",
+                                "Creative coding experiments",
+                                "Human-centered design"
+                            ],
+                            autoStart: true,
+                            loop: true,
+                            delay: 40
+                        }}
+                    />
+                </p>
+                {/*<div className="banner-tags">
                         <span>UI/UX</span>
                         <span>Frontend</span>
                         <span>Creative Coding</span>
                     </div>*/}
-                </div>
-            </section>
-
-
+            </div>
+        </section>
+        <main>
             <Section title="Main Projects">
                 <ProjectCard
                     title="The Artful Gallery"
@@ -124,5 +123,6 @@ export default function Home() {
             </Section>
 
         </main>
+    </>
     );
 }

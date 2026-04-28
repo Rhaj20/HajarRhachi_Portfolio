@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# IDE
+.idea/
+**/.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# build
+dist/
+dist-ssr/
+
+# env
+.env
+*.local
+

@@ -2,6 +2,7 @@ import Section from "../components/Section";
 import ProjectCard from "../components/ProjectCard";
 import Typewriter from "typewriter-effect";
 import { useRef } from "react";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Home() {
     const bannerRef = useRef(null);
@@ -46,6 +47,26 @@ export default function Home() {
                         }}
                     />
                 </p>
+                {/* SOCIAL LINKS */}
+                <div className="banner-socials">
+                    <a
+                        href="https://github.com/rhaj20"
+                        target="_blank"
+                    >
+                        <FaGithub />
+                    </a>
+
+                    <a
+                        href="http://www.linkedin.com/in/hajar-rhachi-09a157340"
+                        target="_blank"
+                    >
+                        <FaLinkedin />
+                    </a>
+
+                    <a href="mailto:hajarrhachi05@gmail.com">
+                        <FaEnvelope />
+                    </a>
+                </div>
                 {/*<div className="banner-tags">
                         <span>UI/UX</span>
                         <span>Frontend</span>

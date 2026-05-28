@@ -493,6 +493,56 @@ a:hover {
   font-size: 0.95rem;
   opacity: 0.8;
 }
+
+/* -------- BANNER SOCIALS -------- */
+
+.banner-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.banner-socials svg {
+  font-size: 1.2rem;
+}
+.banner-socials a {
+  padding: 0.8rem 1.4rem;
+
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.08);
+
+  border: 1px solid rgba(255,255,255,0.12);
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  backdrop-filter: blur(10px);
+
+  transition:
+          transform 0.25s ease,
+          background 0.25s ease,
+          border 0.25s ease,
+          box-shadow 0.25s ease;
+}
+
+.banner-socials a:hover {
+  transform: translateY(-4px);
+
+  background: rgba(46,196,182,0.15);
+
+  border-color: rgba(46,196,182,0.5);
+
+  box-shadow:
+          0 10px 30px rgba(46,196,182,0.25);
+}
   /* -------- MOBILE NAV (Under 600px) -------- */
 @media (max-width: 600px) {
   .burger {

@@ -1,5 +1,5 @@
 import DownloadButton from "../components/DownloadButton.jsx";
-import profilePic from "../assets/Profile_Pic.png";
+import profilePic from "../assets/Profile_Pic_Portrait.png";
 
 export default function About() {
     return (
